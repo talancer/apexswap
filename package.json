@@ -8,7 +8,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "export": "npm run build && next export -o _static"
   },
   "dependencies": {
     "@headlessui/react": "1.6.5",
@@ -50,6 +51,7 @@
     "react-ts-tradingview-widgets": "^1.0.11",
     "react-use": "17.4.0",
     "recharts": "2.1.9",
+    "sharp": "^0.31.1",
     "swiper": "8.2.2",
     "uuid": "8.3.2",
     "wagmi": "^0.6.7",
